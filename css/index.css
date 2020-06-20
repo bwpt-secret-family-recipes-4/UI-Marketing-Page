@@ -146,33 +146,38 @@ body {
   color: #E5E7E6;
   position: fixed;
   width: 100%;
-  height: 5rem;
+  height: 5vw;
   margin-top: 0;
 }
 .navbar h1 {
   text-align: center;
-  font-size: 6.5vh;
+  font-size: 4.5vw;
   font-family: "HoneyFont", Arial, sans-serif;
   font-weight: bolder;
 }
 .sidebar {
   background-color: #020122;
-  margin-top: 5rem;
+  margin-top: 5vw;
   position: fixed;
-  width: 25rem;
+  width: 20vw;
   height: 100%;
 }
 .sidebar a {
   text-align: center;
   padding: 1.6rem;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #818181;
   display: block;
 }
+footer {
+  background-color: #F38375;
+  margin-left: 4vw;
+  height: 10rem;
+}
 .main {
-  margin-left: 25rem;
-  padding-top: 5rem;
+  margin-left: 20vw;
+  padding-top: 4vw;
 }
 .main img {
   width: 100%;
