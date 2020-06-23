@@ -170,15 +170,15 @@ body {
   justify-content: center;
   margin-top: 5vmax;
   position: fixed;
-  width: 20vmax;
+  width: 15vmax;
   height: 100%;
 }
 .sidebar a {
   font-family: "VarianeScript", Arial, sans-serif;
   text-align: center;
-  padding: 5vmin;
+  padding: 3vmin;
   text-decoration: none;
-  font-size: 2vmax;
+  font-size: 3vmin;
   color: #E5E7E6;
   display: block;
   border: 0.5vmin solid #F38375;
@@ -187,6 +187,7 @@ body {
 @media (max-width: 500px) and (orientation: portrait) {
   .sidebar a {
     border: none;
+    font-size: 4vmin;
   }
 }
 @media (max-width: 500px) and (orientation: portrait) {
@@ -208,7 +209,7 @@ footer {
   }
 }
 .main {
-  margin-left: 20vmax;
+  margin-left: 15vmax;
   padding-top: 5vmax;
 }
 .main header {
