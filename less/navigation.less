@@ -20,21 +20,22 @@
   justify-content: center;
   margin-top: 5vmax;
   position: fixed;
-  width: 20vmax;
+  width: 15vmax;
   height: 100%;
   
   a {
     font-family: "VarianeScript", Arial, sans-serif;
     text-align: center;
-    padding: 5vmin;
+    padding: 3vmin;
     text-decoration: none;
-    font-size: 2vmax;
+    font-size: 3vmax;
     color: @platinum;
     display: block;
     border: .5vmin solid @salmon;
     border-radius: 50%;
     @media (max-width: 500px) and (orientation: portrait){
       border: none;
+      font-size: 4vmin;
     }
   }
 
@@ -45,14 +46,4 @@
     padding-bottom: 2vmin;
     
   }
-}
-
-footer{
-  background-color: @salmon;
-  margin-left: 20vmin;
-  height: 10vmax;
-
-  @media (max-width: 500px) and (orientation: portrait){
-    margin-left: 0;
-}
 }
