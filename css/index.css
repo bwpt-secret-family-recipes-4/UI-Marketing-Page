@@ -170,15 +170,15 @@ body {
   justify-content: center;
   margin-top: 5vmax;
   position: fixed;
-  width: 20vmax;
+  width: 15vmax;
   height: 100%;
 }
 .sidebar a {
   font-family: "VarianeScript", Arial, sans-serif;
   text-align: center;
-  padding: 5vmin;
+  padding: 3vmin;
   text-decoration: none;
-  font-size: 2vmax;
+  font-size: 3vmin;
   color: #E5E7E6;
   display: block;
   border: 0.5vmin solid #F38375;
@@ -187,6 +187,7 @@ body {
 @media (max-width: 500px) and (orientation: portrait) {
   .sidebar a {
     border: none;
+    font-size: 4vmin;
   }
 }
 @media (max-width: 500px) and (orientation: portrait) {
@@ -199,8 +200,11 @@ body {
 }
 footer {
   background-color: #F38375;
-  margin-left: 20vmin;
+  margin-left: 15vmax;
   height: 10vmax;
+  text-align: center;
+  color: #764248;
+  font-size: 1.25vmax;
 }
 @media (max-width: 500px) and (orientation: portrait) {
   footer {
@@ -208,7 +212,7 @@ footer {
   }
 }
 .main {
-  margin-left: 20vmax;
+  margin-left: 15vmax;
   padding-top: 5vmax;
 }
 .main header {
@@ -232,12 +236,67 @@ footer {
 }
 .main .mainbody1 {
   background-color: rgba(118, 66, 72, 0.75);
+  display: flex;
+}
+.main .mainbody1 .content1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin: auto 3vmax auto 3vmax;
+}
+.main .mainbody1 .content1 img {
+  height: 20vmax;
+  width: 20vmax;
+  float: left;
+  border-radius: 50%;
+}
+.main .mainbody1 .content1 p {
+  width: 50%;
+  font-size: 1.5vmax;
 }
 .main .mainbody2 {
   background-color: #E5E7E6;
+  display: flex;
+}
+.main .mainbody2 .content2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin: auto 3vmax auto 3vmax;
+}
+.main .mainbody2 .content2 img {
+  height: 20vmax;
+  width: 20vmax;
+  float: left;
+  border-radius: 50%;
+}
+.main .mainbody2 .content2 p {
+  width: 50%;
+  font-size: 1.5vmax;
 }
 .main .mainbody3 {
   background-color: rgba(107, 127, 130, 0.75);
+  display: flex;
+}
+.main .mainbody3 .content3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin: auto 3vmax auto 3vmax;
+}
+.main .mainbody3 .content3 img {
+  height: 20vmax;
+  width: 20vmax;
+  float: left;
+  border-radius: 50%;
+}
+.main .mainbody3 .content3 p {
+  width: 50%;
+  font-size: 1.5vmax;
 }
 @media (max-width: 500px) and (orientation: portrait) {
   .main {
