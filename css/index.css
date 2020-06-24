@@ -251,9 +251,26 @@ footer {
   float: left;
   border-radius: 50%;
 }
+@media (max-width: 500px) and (orientation: portrait) {
+  .main .mainbody1 .content1 img {
+    height: 40vmax;
+    width: 40vmax;
+  }
+}
 .main .mainbody1 .content1 p {
   width: 50%;
   font-size: 1.5vmax;
+}
+@media (max-width: 500px) and (orientation: portrait) {
+  .main .mainbody1 .content1 p {
+    font-size: 2vmax;
+    width: 75%;
+  }
+}
+@media (max-width: 500px) and (orientation: portrait) {
+  .main .mainbody1 .content1 {
+    flex-direction: column;
+  }
 }
 .main .mainbody2 {
   background-color: #E5E7E6;
@@ -273,9 +290,26 @@ footer {
   float: left;
   border-radius: 50%;
 }
+@media (max-width: 500px) and (orientation: portrait) {
+  .main .mainbody2 .content2 img {
+    height: 40vmax;
+    width: 40vmax;
+  }
+}
 .main .mainbody2 .content2 p {
   width: 50%;
   font-size: 1.5vmax;
+}
+@media (max-width: 500px) and (orientation: portrait) {
+  .main .mainbody2 .content2 p {
+    font-size: 2vmax;
+    width: 75%;
+  }
+}
+@media (max-width: 500px) and (orientation: portrait) {
+  .main .mainbody2 .content2 {
+    flex-direction: column;
+  }
 }
 .main .mainbody3 {
   background-color: rgba(107, 127, 130, 0.75);
@@ -294,9 +328,26 @@ footer {
   float: left;
   border-radius: 50%;
 }
+@media (max-width: 500px) and (orientation: portrait) {
+  .main .mainbody3 .content3 img {
+    height: 40vmax;
+    width: 40vmax;
+  }
+}
 .main .mainbody3 .content3 p {
   width: 50%;
   font-size: 1.5vmax;
+}
+@media (max-width: 500px) and (orientation: portrait) {
+  .main .mainbody3 .content3 p {
+    font-size: 2vmax;
+    width: 75%;
+  }
+}
+@media (max-width: 500px) and (orientation: portrait) {
+  .main .mainbody3 .content3 {
+    flex-direction: column;
+  }
 }
 @media (max-width: 500px) and (orientation: portrait) {
   .main {
