@@ -216,13 +216,15 @@ footer {
   font-family: Verdana, Geneva, sans-serif;
   margin-left: 15vmax;
   padding-top: 5vmax;
-  height: 100vmin;
+  height: auto;
   background-color: #E5E7E6;
 }
 .main .mainbody {
   margin: 5vmax 3vmax auto 3vmax;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  align-items: space-evenly;
 }
 .main .mainbody img {
   height: 10vmax;
@@ -251,7 +253,7 @@ footer {
 }
 @media (max-width: 500px) and (orientation: portrait) {
   .main {
-    height: 100%;
+    height: auto;
   }
 }
 @media (max-width: 500px) and (orientation: portrait) {
