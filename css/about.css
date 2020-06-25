@@ -216,139 +216,42 @@ footer {
   font-family: Verdana, Geneva, sans-serif;
   margin-left: 15vmax;
   padding-top: 5vmax;
-}
-.main header {
-  background-image: url("/img/ssshhh.jpg");
-  background-size: cover;
-  background-position: center;
   height: 100vmin;
-}
-@media (max-width: 500px) and (orientation: portrait) {
-  .main header {
-    height: 100vmax;
-  }
-}
-.main .bodyblock {
-  height: 100vmin;
-}
-@media (max-width: 500px) and (orientation: portrait) {
-  .main .bodyblock {
-    height: 100vmax;
-  }
-}
-.main .mainbody1 {
-  background-color: rgba(118, 66, 72, 0.75);
-  display: flex;
-}
-.main .mainbody1 .content1 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: auto;
-  margin: auto 3vmax auto 3vmax;
-}
-.main .mainbody1 .content1 img {
-  height: 20vmax;
-  width: 20vmax;
-  float: left;
-  border-radius: 50%;
-}
-@media (max-width: 500px) and (orientation: portrait) {
-  .main .mainbody1 .content1 img {
-    height: 40vmax;
-    width: 40vmax;
-  }
-}
-.main .mainbody1 .content1 p {
-  width: 50%;
-  font-size: 1.5vmax;
-}
-@media (max-width: 500px) and (orientation: portrait) {
-  .main .mainbody1 .content1 p {
-    font-size: 2vmax;
-    width: 75%;
-  }
-}
-@media (max-width: 500px) and (orientation: portrait) {
-  .main .mainbody1 .content1 {
-    flex-direction: column;
-  }
-}
-.main .mainbody2 {
   background-color: #E5E7E6;
-  display: flex;
 }
-.main .mainbody2 .content2 {
+.main .mainbody {
+  margin: 5vmax 3vmax auto 3vmax;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: auto;
-  margin: auto 3vmax auto 3vmax;
+  flex-direction: row;
 }
-.main .mainbody2 .content2 img {
-  height: 20vmax;
-  width: 20vmax;
-  float: left;
+.main .mainbody img {
+  height: 10vmax;
+  width: 10vmax;
   border-radius: 50%;
 }
 @media (max-width: 500px) and (orientation: portrait) {
-  .main .mainbody2 .content2 img {
-    height: 40vmax;
-    width: 40vmax;
+  .main .mainbody img {
+    height: 10vmax;
+    width: 10vmax;
   }
 }
-.main .mainbody2 .content2 p {
-  width: 50%;
+.main .mainbody p {
   font-size: 1.5vmax;
 }
 @media (max-width: 500px) and (orientation: portrait) {
-  .main .mainbody2 .content2 p {
+  .main .mainbody p {
     font-size: 2vmax;
-    width: 75%;
   }
 }
 @media (max-width: 500px) and (orientation: portrait) {
-  .main .mainbody2 .content2 {
+  .main .mainbody {
+    margin-top: 7.5vmax;
     flex-direction: column;
   }
 }
-.main .mainbody3 {
-  background-color: rgba(107, 127, 130, 0.75);
-  display: flex;
-}
-.main .mainbody3 .content3 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: auto;
-  margin: auto 3vmax auto 3vmax;
-}
-.main .mainbody3 .content3 img {
-  height: 20vmax;
-  width: 20vmax;
-  float: left;
-  border-radius: 50%;
-}
 @media (max-width: 500px) and (orientation: portrait) {
-  .main .mainbody3 .content3 img {
-    height: 40vmax;
-    width: 40vmax;
-  }
-}
-.main .mainbody3 .content3 p {
-  width: 50%;
-  font-size: 1.5vmax;
-}
-@media (max-width: 500px) and (orientation: portrait) {
-  .main .mainbody3 .content3 p {
-    font-size: 2vmax;
-    width: 75%;
-  }
-}
-@media (max-width: 500px) and (orientation: portrait) {
-  .main .mainbody3 .content3 {
-    flex-direction: column;
+  .main {
+    height: 100%;
   }
 }
 @media (max-width: 500px) and (orientation: portrait) {
