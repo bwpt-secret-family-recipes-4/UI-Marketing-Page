@@ -2,13 +2,14 @@
     font-family: Verdana, Geneva, sans-serif;    
     margin-left: 15vmax;
     padding-top: 5vmax;
-    height: 100vmin;
+    height: auto;
     background-color: @platinum;
     .mainbody{
         margin: 5vmax 3vmax auto 3vmax;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
-        
+        align-items: space-evenly;
         img{
             height: 10vmax;
             width: 10vmax;
@@ -33,7 +34,7 @@
 
     }
     @media (max-width: 500px) and (orientation: portrait){
-        height: 100%;
+        height: auto;
     }
 
 
