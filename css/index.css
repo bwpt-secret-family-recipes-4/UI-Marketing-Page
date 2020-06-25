@@ -271,8 +271,8 @@ footer {
 }
 @media (max-width: 500px) and (orientation: portrait) {
   .main .mainbody1 .content1 {
-    flex-direction: column;
     margin-top: 5vmax;
+    flex-direction: column;
   }
 }
 .main .mainbody2 {
