@@ -191,6 +191,10 @@ body {
     font-size: 4vmin;
   }
 }
+.sidebar a:hover {
+  background-color: #F38375;
+  color: #020122;
+}
 @media (max-width: 500px) and (orientation: portrait) {
   .sidebar {
     height: 5vmax;
