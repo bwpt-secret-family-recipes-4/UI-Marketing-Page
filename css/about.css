@@ -215,6 +215,7 @@ footer {
 .main {
   font-family: Verdana, Geneva, sans-serif;
   margin-left: 15vmax;
+  padding-bottom: 5vmax;
   padding-top: 5vmax;
   height: auto;
   background-color: #E5E7E6;
@@ -224,24 +225,30 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: space-evenly;
+  align-content: center;
 }
-.main .mainbody img {
+.main .mainbody .content img {
+  float: left;
   height: 10vmax;
   width: 10vmax;
   border-radius: 50%;
 }
 @media (max-width: 500px) and (orientation: portrait) {
-  .main .mainbody img {
+  .main .mainbody .content img {
     height: 10vmax;
     width: 10vmax;
   }
 }
-.main .mainbody p {
+.main .mainbody .content h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4vmin;
+}
+.main .mainbody .content p {
   font-size: 1.5vmax;
 }
 @media (max-width: 500px) and (orientation: portrait) {
-  .main .mainbody p {
+  .main .mainbody .content p {
     font-size: 2vmax;
   }
 }
