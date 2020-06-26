@@ -1,28 +1,41 @@
 .main{
     font-family: Verdana, Geneva, sans-serif;    
     margin-left: 15vmax;
+    padding-bottom: 5vmax;
     padding-top: 5vmax;
     height: auto;
     background-color: @platinum;
+
     .mainbody{
         margin: 5vmax 3vmax auto 3vmax;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        align-items: space-evenly;
-        img{
-            height: 10vmax;
-            width: 10vmax;
-            border-radius: 50%;
-            @media (max-width: 500px) and (orientation: portrait){
+        align-content: center;
+
+        .content{
+
+            img{
+                float: left;
                 height: 10vmax;
                 width: 10vmax;
+                border-radius: 50%;
+                @media (max-width: 500px) and (orientation: portrait){
+                    height: 10vmax; 
+                    width: 10vmax;
+                }
             }
-        }
-        p{  
-            font-size: 1.5vmax;
-            @media (max-width: 500px) and (orientation: portrait){
-                font-size: 2vmax;
+            h2{
+                text-align: center;
+                font-weight: bold;
+                font-size: 4vmin;
+            }
+            p{  
+                font-size: 1.5vmax;
+                @media (max-width: 500px) and (orientation: portrait){
+                    font-size: 2vmax;
+                }
+    
             }
 
         }
@@ -31,8 +44,8 @@
             margin-top: 7.5vmax;
             flex-direction: column;
         }
-
     }
+
     @media (max-width: 500px) and (orientation: portrait){
         height: auto;
     }
@@ -40,5 +53,5 @@
 
     @media (max-width: 500px) and (orientation: portrait){
         margin-left: 0;
-    }
+    }   
 }
